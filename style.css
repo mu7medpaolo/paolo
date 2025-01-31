@@ -1,0 +1,72 @@
+header{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   background-color: whitesmoke;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+img.profile {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+}
+
+
+.instagram-icon {
+    font-size: 30px;
+    color: #E1306C; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.instagram-icon:hover {
+    transform: scale(1.2) rotate(10deg); 
+}
+footer {
+    display: flex;
+    justify-content: center; 
+    gap: 30px; 
+    padding: 20px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-items: center;
+}
+h1{
+    display: flex;
+    justify-content:space-around;
+    color: black;
+    
+}
+h2{
+    display: flex;
+   justify-content: space-around;
+    color: black;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+hr{
+    height: 1px;
+    width: 20%;
+    border: none;
+    margin: none;
+    background-color: gray;
+}
