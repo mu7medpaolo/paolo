@@ -20,13 +20,13 @@ img.profile {
 }
 
 
-.instagram-icon {
+.icons {
     font-size: 30px;
     color: #E1306C; 
     transition: transform 0.3s ease-in-out;
 }
 
-.instagram-icon:hover {
+.icons:hover {
     transform: scale(1.2) rotate(10deg); 
 }
 footer {
