@@ -22,7 +22,7 @@ img.profile {
 
 .icons {
     font-size: 30px;
-    color: #E1306C; 
+    color: #333;
     transition: transform 0.3s ease-in-out;
 }
 
