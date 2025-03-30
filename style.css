@@ -29,6 +29,16 @@ img.profile {
 .icons:hover {
     transform: scale(1.2) rotate(10deg); 
 }
+. Instagram{
+font-size: 30px;
+    color: #red;
+    transition: transform 0.3s ease-in-out;
+}
+. Instagram: hover {
+transform: scale(1.2) rotate(10deg); 
+}
+
+
 footer {
     display: flex;
     justify-content: center; 
