@@ -57,6 +57,7 @@ h2{
     display: flex;
     justify-content: space-around;
     color: black;
+ text-align: center;
 }
 .copyright{
     display: flex;
