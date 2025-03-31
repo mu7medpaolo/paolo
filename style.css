@@ -1,83 +1,131 @@
 header{
-    display: flex;
-    justify-content: space-between;
-   align-items: center;
-   background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+ align-items: center;
+ background-color: #333;
+ padding: 10px 20px;
+ margin: 0;
+width: 100%;
+box-sizing: border-box;
+}
+
+.h1h{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.body{
+  margin: 0 ;
+  padding: 0 ;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .img-container {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
 }
 
 img.profile {
-    width: 200px; 
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #333;
+  width: 200px; 
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #333;
 }
 
 
 .icons {
-    font-size: 30px;
-    color: #333;
-    transition: transform 0.3s ease-in-out;
+  font-size: 30px;
+  color: #333;
+  transition: transform 0.3s ease-in-out;
 }
 
 .icons:hover {
-    transform: scale(1.2) rotate(10deg); 
+  transform: scale(1.2) rotate(10deg); 
 }
-. Instagram{
+.Instagram{
 font-size: 30px;
-    color: #red;
-    transition: transform 0.3s ease-in-out;
+  color: red;
+  transition: transform 0.3s ease-in-out;
 }
-. Instagram: hover {
+.Instagram:hover {
 transform: scale(1.2) rotate(10deg); 
 }
+.youtube{
+  font-size: 30px;
+  color: red;
+  transition: transform 0.3s ease-in-out;
 
+}
+.youtube:hover{
+  transform: scale(1.2) rotate(10deg); 
+}
 
 footer {
-    display: flex;
-    justify-content: center; 
-    gap: 30px; 
-    padding: 20px;
+  display: flex;
+  justify-content: center; 
+  gap: 30px; 
+  padding: 20px;
 }
 img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  align-items: center;
 }
 h1{
-    display: flex;
-    justify-content:space-around;
-    color: black;
-    
+  display: flex;
+  justify-content:space-around;
+  color: #333;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 }
 h2{
-    display: flex;
-   justify-content: space-around;
-    color: black;
+  display: flex;
+ justify-content: space-around;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .about{
-    display: flex;
-    justify-content: space-around;
-    color: black;
- text-align: center;
+  display: flex;
+  justify-content: space-around;
+  color: black;
+text-align: center;
 }
 .copyright{
-    display: flex;
-    justify-content: space-around;
-    color: black;
+  display: flex;
+  justify-content: space-around;
+  color: black;
 }
 hr{
-    height: 1px;
-    width: 20%;
-    border: none;
-    margin: none;
-    background-color: gray;
+  height: 1px;
+  width: 20%;
+  border: none;
+  margin: none;
+  background-color: gray;
+}
+a{
+  text-decoration: none;
+}
+.copy{
+  text-align: center;
+  font-size: small;
+}
+.nav{
+text-decoration: none;
+color: white;
+}
+li{
+  color: white;
 }
