@@ -70,6 +70,15 @@ transform: scale(1.2) rotate(10deg);
 .youtube:hover{
   transform: scale(1.2) rotate(10deg); 
 }
+.github{
+  font-size: 30px;
+  color :#333;
+  transition: transform 0.3s ease-in-out;
+}
+.tiktok{
+  font-size: 30px;
+  color: #ff0050;
+}
 
 footer {
   display: flex;
@@ -91,7 +100,8 @@ h1{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   
 }
-h2{
+h3{
+  top: 10px;
   display: flex;
  justify-content: space-around;
   color: black;
@@ -121,6 +131,7 @@ a{
 .copy{
   text-align: center;
   font-size: small;
+  color: whitesmoke;
 }
 .nav{
 text-decoration: none;
@@ -128,4 +139,42 @@ color: white;
 }
 li{
   color: white;
+}
+.footer1{
+background-color: #333;
+padding: 10px;
+text-align: center;
+color: white;
+width: 100%;
+position: relative;
+margin-top: auto;
+}
+.main-content{
+  flex: 1;
+}
+.img-container {
+  text-align: center; 
+}
+
+.img1 {
+  display: block;
+  margin: 0 auto; 
+  max-width: 100%;
+  border-radius: 20px;
+  width: 50%;
+  height: auto;
+}
+.h21{
+  margin: 10px 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: black;
+}
+.link{
+  text-decoration: none;
+  font-size: large;
+  color: black;
+  text-align: center;
+  margin: 0 0 20px 0;
+  display: block;
 }
