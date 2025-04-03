@@ -3,99 +3,218 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal portfolio of Mohamed Hassan, Web Developer and Computer Science student at Cairo University">
-    <meta name="keywords" content="Web Developer, Portfolio, Mohamed Hassan, Frontend Developer">
+    <meta name="description" content="Professional portfolio of Mohamed Hassan, Web Developer and Computer Science student">
+    <meta name="keywords" content="Web Developer, Portfolio, Frontend Developer, HTML, CSS, JavaScript">
     <meta name="author" content="Mohamed Hassan">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
     <link rel="stylesheet" href="style.css">
     <title>Mohamed Hassan | Web Developer</title>
 </head>
 <body>
+    <!-- Navigation -->
     <header>
         <nav>
-            <h1 class="logo">MOHAMED HASSAN</h1>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <a href="#" class="logo">MH</a>
+            <div class="nav-links" id="navLinks">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="#" class="resume-btn"></a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
     </header>
 
-    <main>
-        <section id="hero" class="hero-section">
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Mohamed Hassan</h1>
+            <h2 class="hero-subtitle">Frontend Developer</h2>
+            <p class="hero-description">I build exceptional digital experiences with modern web technologies</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="cta-button">View My Work</a>
+                <a href="#contact" class="cta-button secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
             <div class="img-container">
                 <img src="paolo.jpg" alt="Mohamed Hassan" class="profile">
             </div>
-            <div class="hero-content">
-                <h1>Mohamed Hassan</h1>
-                <h2>Web Developer</h2>
-                <p class="tagline">Creating modern and responsive websites</p>
-                <a href="#contact" class="cta-button">Get In Touch</a>
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="about" class="about-section">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <p>I am Mohamed Hassan, a passionate web developer and Computer Science student at Cairo University. I specialize in creating beautiful, functional, and responsive websites using modern web technologies.</p>
-                <div class="skills">
-                    <h3>Skills</h3>
-                    <ul>
-                        <li>HTML5 & CSS3</li>
-                        <li>JavaScript</li>
-                        <li>Responsive Design</li>
-                        <li>UI/UX Principles</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects" class="projects-section">
-            <h2>My Projects</h2>
-            
-            <div class="project-card">
-                <h3>Infinity Comics</h3>
-                <div class="project-content">
-                    <img src="Screenshot (32).png" class="project-img" alt="Infinity Comics Project">
-                    <div class="project-details">
-                        <p>Infinity Comics is a sleek and modern website designed using HTML, CSS, and JavaScript, dedicated to showcasing the latest and most iconic Marvel Comics. The site features a clean user interface, allowing visitors to explore featured comics and browse through an extensive collection of Marvel's legendary stories.</p>
-                        <a href="https://mu7medpaolo.github.io/infintycomicss/" target="_blank" class="project-link">View Project</a>
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hello! I'm Mohamed, a passionate Frontend Developer and Computer Science student at Cairo University. I specialize in building responsive, user-friendly websites and applications.</p>
+                <p>With a strong foundation in modern web technologies, I create digital experiences that are both visually appealing and highly functional.</p>
+                <div class="experience">
+                    <div class="exp-item">
+                        <span class="exp-number">10+</span>
+                        <span class="exp-text">Projects Completed</span>
+                    </div>
+                    <div class="exp-item">
+                        <span class="exp-number">2+</span>
+                        <span class="exp-text">Years of Experience</span>
                     </div>
                 </div>
             </div>
-            
-            <!-- يمكنك إضافة المزيد من المشاريع هنا -->
-        </section>
-
-        <section id="contact" class="contact-section">
-            <h2>Get In Touch</h2>
-            <div class="social-links">
-                <a href="https://github.com/mu7medpaolo" class="social-icon" target="_blank" aria-label="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.instagram.com/mu7medpaolo/" class="social-icon" target="_blank" aria-label="Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://youtube.com/@mu7medpaolo?si=JbmWA5GdJtXSSE33" class="social-icon" target="_blank" aria-label="YouTube">
-                    <i class="fab fa-youtube"></i>
-                </a>
-                <a href="https://www.tiktok.com/@__mupaolo__?is_from_webapp=1&sender_device=pc" class="social-icon" target="_blank" aria-label="TikTok">
-                    <i class="fab fa-tiktok"></i>
-                </a>
+            <div class="skills-container">
+                <h3 class="skills-title">My Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Responsive Design</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-paint-brush"></i>
+                        <span>UI/UX Design</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git</span>
+                    </div>
+                </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="section-header">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="section-divider"></div>
+        </div>
+        
+        <div class="project-card">
+            <div class="project-image">
+                <img src="Screenshot (32).png" alt="Infinity Comics Project">
+                <div class="project-links">
+                    <a href="https://mu7medpaolo.github.io/infintycomicss/" target="_blank" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> Live Demo
+                    </a>
+                    <a href="#" class="project-link">
+                        <i class="fab fa-github"></i> Source Code
+                    </a>
+                </div>
+            </div>
+            <div class="project-details">
+                <h3 class="project-title">Infinity Comics</h3>
+                <p class="project-description">A modern Marvel comics showcase website built with HTML, CSS, and JavaScript. Features a clean UI with comic browsing functionality.</p>
+                <div class="project-tech">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>Responsive Design</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image">
+                <img src="Screenshot (37).png" alt="USA Travel Guide">
+                <div class="project-links">
+                    <a href="https://mu7medpaolo.github.io/usa/" target="_blank" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> Live Demo
+                    </a>
+                    <a href="#" class="project-link">
+                        <i class="fab fa-github"></i> Source Code
+                    </a>
+                </div>
+            </div>
+            <div class="project-details">
+                <h3 class="project-title">USA Travel Guide</h3>
+                <p class="project-description">An interactive guide to major US cities featuring responsive design, smooth animations, and city search functionality.</p>
+                <div class="project-tech">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>Responsive Design</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="section-header">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Let's work together</h3>
+                <p>Have a project in mind or want to discuss potential opportunities? Feel free to reach out!</p>
+                <div class="contact-methods">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>mu7medpaolo@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+20 1274936019</span>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/mu7medpaolo" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/mu7medpaolo/" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://youtube.com/@mu7medpaolo" target="_blank" aria-label="YouTube">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.tiktok.com/@__mupaolo__" target="_blank" aria-label="TikTok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
         <div class="footer-content">
-            <p>&copy; <span id="year"></span> Mohamed Hassan. All Rights Reserved.</p>
+            <p>&copy; <span id="year"></span> Mohamed Hassan. All rights reserved.</p>
+            <a href="#hero" class="back-to-top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
         </div>
     </footer>
 
-    <script>
-        // Update copyright year automatically
-        document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
